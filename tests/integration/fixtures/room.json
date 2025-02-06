@@ -1,0 +1,37 @@
+[
+    {
+        "id": "de74f6ee-4f46-4e9a-9384-f9c8850977a2",
+        "name": "Room1",
+        "home_id": "0efe3792-74e1-4202-8a11-5620b2a2b896"
+    },
+    {
+        "id": "6e769065-4431-4009-93ed-4218abda6e66",
+        "name": "Room2",
+        "home_id": "0efe3792-74e1-4202-8a11-5620b2a2b896"
+    },
+    {
+        "id": "4501f1ab-2932-499a-842a-f1a3c4d8ff8a",
+        "name": "Room3",
+        "home_id": "0efe3792-74e1-4202-8a11-5620b2a2b896"
+    },
+    {
+        "id": "1374e561-842a-4f45-bca7-b6f3cf93cdee",
+        "name": "RoomA",
+        "home_id": "ba375c86-8b05-4444-b531-6afc1a4507a3"
+    },
+    {
+        "id": "3484651d-9b97-4364-88f7-9b0b7394d934",
+        "name": "RoomB",
+        "home_id": "ba375c86-8b05-4444-b531-6afc1a4507a3"
+    },
+    {
+        "id": "3d85e57e-a7b2-434a-a310-616991a1d344",
+        "name": "RoomC",
+        "home_id": "ba375c86-8b05-4444-b531-6afc1a4507a3"
+    },
+    {
+        "id": "48f365e5-6ac1-4373-aca3-ac3ddf51032a",
+        "name": "ScoobeRoom",
+        "home_id": "41f76e28-5d80-41c8-b7f4-f3cef0e1214f"
+    }
+]

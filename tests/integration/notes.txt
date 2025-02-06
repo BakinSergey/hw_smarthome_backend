@@ -1,0 +1,27 @@
+Данные в тестовой БД (фикстуры)
+
+{
+    "MyHome": {
+        "Room1": {
+            "Device1.1": {..data..},
+            "Device1.2": {..data..}
+        },
+        "Room2": {
+            "Device2.1": {..data..}
+        },
+        "Room3": {
+            "Device3.1": {..data..}
+        }
+    },
+    "AlexHome": {
+        "RoomA": {
+            "DeviceA.1": {..data..},
+            "DeviceA.2": {..data..}
+        },
+        "RoomB": {},
+        "RoomC": {}
+    },
+    "ScoobeHome": {
+        "ScoobeRoom": {}
+    }
+}

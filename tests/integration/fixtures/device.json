@@ -1,0 +1,56 @@
+[
+    {
+        "id": "5e0b998d-783c-4607-8b35-724dd6913441",
+        "name": "Device1.1",
+        "data": {
+            "created": "2025-02-06 09:38:46.740439326 UTC",
+            "name": "Device1.1"
+        },
+        "room_id": "de74f6ee-4f46-4e9a-9384-f9c8850977a2"
+    },
+    {
+        "id": "b757936c-7742-4ad4-976c-832a204e3395",
+        "name": "Device1.2",
+        "data": {
+            "created": "2025-02-06 09:39:11.676891179 UTC",
+            "name": "Device1.2"
+        },
+        "room_id": "de74f6ee-4f46-4e9a-9384-f9c8850977a2"
+    },
+    {
+        "id": "4644a242-b1fe-447f-a745-25af51941129",
+        "name": "Device2.1",
+        "data": {
+            "created": "2025-02-06 09:39:15.227101404 UTC",
+            "name": "Device2.1"
+        },
+        "room_id": "6e769065-4431-4009-93ed-4218abda6e66"
+    },
+    {
+        "id": "33bed1f2-f89f-47c5-9925-e7d3de8c9478",
+        "name": "Device3.1",
+        "data": {
+            "created": "2025-02-06 09:39:19.293274957 UTC",
+            "name": "Device3.1"
+        },
+        "room_id": "4501f1ab-2932-499a-842a-f1a3c4d8ff8a"
+    },
+    {
+        "id": "8fa32ce3-4799-426d-9b4e-82852dca07bd",
+        "name": "DeviceA.1",
+        "data": {
+            "created": "2025-02-06 09:39:21.497339159 UTC",
+            "name": "DeviceA.1"
+        },
+        "room_id": "1374e561-842a-4f45-bca7-b6f3cf93cdee"
+    },
+    {
+        "id": "b2302998-9082-41aa-9eb6-0857b938b3a2",
+        "name": "DeviceA.2",
+        "data": {
+            "created": "2025-02-06 09:39:23.968764216 UTC",
+            "name": "DeviceA.2"
+        },
+        "room_id": "1374e561-842a-4f45-bca7-b6f3cf93cdee"
+    }
+]

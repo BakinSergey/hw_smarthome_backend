@@ -1,0 +1,121 @@
+POST http://localhost:8888/api/v1/home/add/MyHome
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/home/add/AlexHome
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/home/add/ScoobeHome
+Accept: application/json
+
+###
+GET http://localhost:8888/api/v1/home/list
+Accept: application/json
+
+###
+DELETE http://localhost:8888/api/v1/home/del/MyHome
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/room/add/MyHome/Room1
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/room/add/MyHome/Room2
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/room/add/MyHome/Room3
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/room/add/ScoobeHome/ScoobeRoom
+Accept: application/json
+
+###
+GET http://localhost:8888/api/v1/room/list/ScoobeHome
+Accept: application/json
+
+###
+GET http://localhost:8888/api/v1/room/list/AlexHome
+Accept: application/json
+
+###
+GET http://localhost:8888/api/v1/room/list/MyHome
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/room/add/AlexHome/RoomA
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/room/add/AlexHome/RoomB
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/room/add/AlexHome/RoomC
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/device/add/MyHome/Room1/Device1.1
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/device/add/MyHome/Room1/Device1.2
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/device/add/MyHome/Room2/Device2.1
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/device/add/MyHome/Room3/Device3.1
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/device/add/AlexHome/RoomA/DeviceA.1
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/device/add/AlexHome/RoomA/DeviceA.2
+Accept: application/json
+
+###
+GET http://localhost:8888/api/v1/device/list/AlexHome/RoomA
+Accept: application/json
+
+###
+GET http://localhost:8888/api/v1/device/list/MyHome/Room1
+Accept: application/json
+
+###
+DELETE http://localhost:8888/api/v1/device/del/MyHome/Room1/Device1.2
+Accept: application/json
+
+###
+DELETE http://localhost:8888/api/v1/device/del/MyHome/Room2/Device1.1
+Accept: application/json
+
+###
+POST http://localhost:8888/api/v1/report/add/MyHome
+Accept: application/json
+Content-Type: application/json
+
+{
+    "Room1": [
+        "Device1.1",
+        "Device1.2",
+        "Device1.3"
+    ],
+    "Room2": [
+        "Device2.1"
+    ],
+    "Room3": [
+        "Device3.1"
+    ]
+}
+
+###
+GET http://localhost:8888/api/v1/report/list/MyHome
+Accept: application/json
