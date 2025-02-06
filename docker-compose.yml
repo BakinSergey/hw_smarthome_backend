@@ -18,7 +18,7 @@ services:
     environment:
       POSTGRES_USER: pguser
       POSTGRES_PASSWORD: wordpass
-      POSTGRES_DB: pgdb
+      POSTGRES_DB: pgdb_test
       PGDATA: /var/lib/postgresql/data/pgdata
     ports:
       - "5432:5432"
